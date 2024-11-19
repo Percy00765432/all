@@ -1,0 +1,3 @@
+C:/Users/prath/Desktop/Ctutorialsyt/cmake-build-debug/CMakeFiles/Ctutorialsyt.dir
+C:/Users/prath/Desktop/Ctutorialsyt/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/prath/Desktop/Ctutorialsyt/cmake-build-debug/CMakeFiles/rebuild_cache.dir

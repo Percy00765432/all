@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Chip Cookies Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #dbad9c;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            line-height: 1.6;
+        }
+        form {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"],
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover,
+        button:hover {
+            background-color: #45a049;
+        }
+        @media (max-width: 600px) {
+            body {
+                margin: 10px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 align="center" style="color:brown;">Chocolate Chip Cookies Recipe</h1>
+    <img src="https://lemonsandzest.com/wp-content/uploads/2020/02/Small-Batch-Chocolate-Chip-Cookies-Recipe-3.10.jpg" alt="Chocolate Chip Cookies" align="right" width="350">
+</header>
+
+<main>
+    <h2>Ingredients:</h2>
+    <ul>
+        <li>1 cup unsalted butter, softened</li>
+        <li>1 cup granulated sugar</li>
+        <li>1 cup brown sugar, packed</li>
+        <li>2 large eggs</li>
+        <li>2 teaspoons vanilla extract or 1 vanilla bean</li>
+        <li>3 cups all-purpose flour</li>
+        <li>1 teaspoon baking soda</li>
+        <li>1/2 teaspoon salt</li>
+        <li>2 cups chocolate chips</li>
+    </ul>
+
+    <h2>Instructions:</h2>
+    <ol>
+        <li>Preheat your oven to 350°F (175°C).</li>
+        <li>In a large bowl, mix the butter, granulated sugar, and brown sugar together until smooth.</li>
+        <li>Beat in the eggs one at a time, then add the vanilla extract and stir it.</li>
+        <li>Combine the flour, baking soda, and salt; gradually stir into the wet mixture.</li>
+        <li>Finally, add in the chocolate chips and fold the mixture.</li>
+        <li>Drop by rounded spoonfuls onto baking paper and add a few chocolate chips on top of each ball.</li>
+        <li>Bake for 9 to 12 minutes, or until edges are golden brown.</li>
+        <li>Cool the cookies for 5 minutes.</li>
+    </ol>
+
+    <h2>Enjoy your cookies!!!!!</h2>
+
+    <h2>Feedback Form:</h2>
+    <form action="mailto:shettyprapthi07@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+        <input type="submit" value="Submit Feedback">
+    </form>
+
+    <button onclick="window.print()">Print Recipe</button>
+
+    <h2>Contact Me:</h2>
+    <p>If you have any questions or comments, feel free to <a href="mailto:shettyprapthi07@gmail.com">email me</a>.</p>
+</main>
+
+</body>
+</html>
