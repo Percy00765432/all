@@ -43,7 +43,7 @@ int main() {
     load_from_file();
     
     while(1) {
-        printf("\n--- Enhanced Student Grade Management System ---\n");
+        printf("\n--- Student Grade Management System ---\n");
         printf("1. Add New Student\n");
         printf("2. Display All Students\n");
         printf("3. Calculate Student Averages\n");
