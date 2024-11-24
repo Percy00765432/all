@@ -20,7 +20,7 @@ printf("The product of two numbers are: %d\n",a*b);
 case '/':
 if(b!=0){
 d=(float)a/b;
-printf("The division of the two numbers are: %f\n",d);
+printf("The division of the two numbers are: %.3f\n",d);
 }
 else
 printf("Invalid\n");
