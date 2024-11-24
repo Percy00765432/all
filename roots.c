@@ -2,7 +2,7 @@
 #include <math.h>
 void main()
 {
-int a,b,c, d;
+int a,b,c,d;
 float root1,root2;
 printf("Enter the coefficients of the equation: ");
 scanf("%d%d%d",&a,&b,&c);
