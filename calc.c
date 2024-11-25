@@ -17,6 +17,7 @@ void main()
         break;
         case '*':
         printf("The product of two numbers are: %d\n",a*b);
+        break;
         case '/':
         if(b!=0){
             d=(float)a/b;
