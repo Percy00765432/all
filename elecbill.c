@@ -16,5 +16,5 @@ void main(){
         total = (50*4) + (100*6) + (100*7) + (units-250)*8;
     }
     total = total * 1.2;
-    printf("\nThe total bill is rupees %d",total);
+    printf("\nThe total bill is rupees: %d",total);
 }
