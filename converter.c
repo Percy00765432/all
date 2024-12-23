@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-// Function prototypes
 void lengthConverter();
 void weightConverter();
 void temperatureConverter();
@@ -46,7 +45,7 @@ int main() {
 }
 
 void displayMainMenu() {
-    printf("\n====== Advanced Unit Converter ======\n");
+    printf("\n====== Unit Converter ======\n");
     printf("1.  Length Converter\n");
     printf("2.  Weight/Mass Converter\n");
     printf("3.  Temperature Converter\n");
