@@ -201,7 +201,7 @@ void volumeConverter() {
     int choice;
     double value;
     
-    printf("\n=== Volume Converter ===\n");
+    printf("\n Volume Converter \n");
     printf("1.  Liters to Gallons (US)\n");
     printf("2.  Gallons (US) to Liters\n");
     printf("3.  Milliliters to Fluid Ounces (US)\n");
