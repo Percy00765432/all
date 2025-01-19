@@ -7,7 +7,7 @@ int main(){
     scanf("%d", &i);
 
     printf("Item\tTotal\tPrice/Item\tItem Bill\n");
-    for(x = 1; x <= i; x++){
+    for(x = 0; x < i; x++){
         printf("enter the item%d cost and quantity: ", x);
         scanf("%f %d", &itmp, &q);
         result = itmp * q;

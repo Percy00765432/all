@@ -19,7 +19,7 @@ int main() {
     temp = num;
     while (temp != 0) {
         digit = temp % 10;              
-        sum += (int)pow(digit, count);   //used typecasting
+        sum += (int)pow(digit, count); 
         temp /= 10;                      
     }
 
