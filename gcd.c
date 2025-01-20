@@ -15,4 +15,4 @@ a=n1;
  printf("gcd=%d\n",gcd);
  lcm=(a*b)/gcd;
  printf("lcm=%d",lcm);
- }
+}
